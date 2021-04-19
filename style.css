@@ -1,12 +1,13 @@
-
-
- {
+*{
     background-color: #f0f0f0;
   }
-  body {
+
+ 
+
+body {
     text-align: center;
     font-family: 'Bodoni Moda', serif;
-  }
+}
    h1 {
     color: #4d2a16;
      padding-top: 50px;
@@ -27,9 +28,7 @@
     max-width: 70%;
     border-radius: 40px;
   }
-  #ima {
-    
-  }
+
   #image {
       display: block;
     margin: 0 auto;
@@ -81,6 +80,7 @@
     font-size: 25px;
     color: white;
   }
+
   footer {
     background-color: #95a3b3;
     font-size: 18px;
