@@ -1,7 +1,8 @@
-*{
-    background-color: #eee9d5;
-    box-sizing: border-box;
-} 
+*, *:before, *:after {
+  background-color: #eee9d5;
+  box-sizing: border-box;
+}
+ 
 
 body {
   text-align: center;
@@ -46,7 +47,7 @@ h4 {
 .tribute-info {
   font-size: 2rem;
   padding: 150px;
-  width: ;
+  word-wrap: break-word;
   
 }
 
@@ -63,82 +64,27 @@ h4 {
   background-color: transparent;
   color: rgb(254, 255, 254);
   font-family: 'Lora', serif;
+  font-size: 3rem;
 }
 
 #img-teaching {
   filter: grayscale(100%);
   border-radius: 50px;
-  max-width: 100%;
-  max-height: 100%;
-  padding: 150px;
+  max-width: 80%;
+  max-height: 80%;
+
+  margin: 150px;
 }
 
+.inlist1 {
+  margin: 100px;
+
+  span {
+    display: flex;
+  }
+}
 
   
-  
-  #image2 {
-    max-width: 70%;
-    border-radius: 40px;
-  }
-
-  #image {
-      display: block;
-    margin: 0 auto;
-    max-width: 100%;
-        border-radius: 40px;
-  }
-  
-  
-  #tribute-info {
-      color: #c7cedf;
-      background-color: #976f4f;
-      margin-left: 200px;
-      margin-right: 200px;
-      border-radius: 50px;
-      font-size: 20px;
-      padding: 50px;
-  }
-  .list1 {
-    background-color: #c7cedf;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 50px;
-  }
-  
-  #also {
-    padding-top: 50px;
-    font-size: 20px;
-    color: #4d2a16;
-  }
-  #more-info {
-      color: #4d2a16;
-      line-height: 200%;
-  padding: 50px
-      font-size: 20px;
-  }
-  .list2 {
-    color: #c7cedf;
-    background-color: #007a79;
-  padding: 50px;
-      font-size: 20px;
-      margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 50px;
-  }
-  #mother {
-    font-size: 25px;
-    color: white;
-  }
-
-  footer {
-    background-color: #95a3b3;
-    font-size: 18px;
-    color: white;
-    margin: 50px;
-        margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 10px;
-  }
   
 
 /* font-family: 'Lora', serif;
