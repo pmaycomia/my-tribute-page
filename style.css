@@ -46,7 +46,7 @@ h4 {
 
 .tribute-info {
   font-size: 2rem;
-  padding: 150px;
+  padding: 50px;
   word-wrap: break-word;
   
 }
@@ -79,9 +79,6 @@ h4 {
 .inlist1 {
   margin: 100px;
 
-  span {
-    display: flex;
-  }
 }
 
   
