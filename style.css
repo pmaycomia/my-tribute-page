@@ -26,9 +26,7 @@ h4 {
   font-size: 28px;
   
 }
-.img-brown-div {
 
-}
 
 #brownishbg {
   border-radius: 50px;
@@ -45,7 +43,7 @@ h4 {
 
 
 .tribute-info {
-  font-size: 2rem;
+  font-size: 1.5rem;   
   padding: 50px;
   word-wrap: break-word;
   
@@ -87,11 +85,18 @@ h4 {
   width: 800px;
   height: 250px;
   overflow: hidden;   
+  padding: 50px;
   margin: 10px;
 }
 
-.inlist span, .inlist em, .inlist strong{
+.inlist span{
   background-color: transparent;
+  font-size: 20px;
+  color: white; 
+  padding: 50px;
+  margin: 50px;
+  width: auto;
+
 }
 
 .inlist img {
@@ -116,6 +121,31 @@ h4 {
   margin-left: 15px;
 }
 
+.last, .last p, .last strong{
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.last strong {
+  color: red;
+}
+.last {
+  height: auto;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  height: 30vh;
+  color: rgb(117, 70, 0);
+}
+
+footer a {
+  text-decoration: none;
+  color: #dd9165;
+}
 
   
   
