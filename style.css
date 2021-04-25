@@ -76,10 +76,46 @@ h4 {
   margin: 150px;
 }
 
-.inlist1 {
-  margin: 100px;
-
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.inlist {
+  width: 800px;
+  height: 250px;
+  overflow: hidden;   
+  margin: 10px;
+}
+
+.inlist span, .inlist em, .inlist strong{
+  background-color: transparent;
+}
+
+.inlist img {
+  height:200px;
+  width: auto;
+}
+
+.left {
+  background-color: rgb(164, 197, 151);
+}
+
+.right {
+  background-color: rgb(206, 177, 139);
+}
+.left img {
+  float: left;
+  margin-right: 15px;
+}
+
+.right img {
+  float: right;
+  margin-left: 15px;
+}
+
 
   
   
