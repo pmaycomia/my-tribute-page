@@ -1,4 +1,4 @@
-
+/* MAIN STYLING */
 *, *:before, *:after {
   background-color: #eee9d5;
   box-sizing: border-box;
@@ -10,6 +10,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 .header {
   padding: 100px;
 }
@@ -19,15 +21,12 @@ h1 {
   font-family: 'Lora', serif;
   font-size: 5rem;
   border-bottom: solid 1px rgb(88, 136, 96);
-
 }
 
 h4 {
   color:  rgb(88, 136, 96);
-  font-size: 28px;
-  
+  font-size: 28px;  
 }
-
 
 #brownishbg {
   border-radius: 50px;
@@ -35,20 +34,17 @@ h4 {
   max-height: 100%;
 }
 
-
 #img-caption {
   font-size: 1em;
   color:#9aabbb
 }
 
-
-
+/* RESUME */
 .tribute-info {
   font-size: 1.5rem;   
   padding: 50px;
   word-wrap: break-word;
-  margin: 0 400px;
-  
+  margin: 0 400px;  
 }
 
 #trib-p {
@@ -65,6 +61,7 @@ h4 {
   font-size: 3rem;
 }
 
+/* ACHIEVEMENTS */
 .list-container {
   display: flex;
   flex-direction: column;
@@ -79,7 +76,6 @@ h4 {
   overflow: hidden;  
 }
 
-
 .inlist span{
   background-color: transparent;
   font-size: 20px;
@@ -87,7 +83,6 @@ h4 {
   padding: 50px;
   margin: 50px;
   width: auto;
-
 }
 
 .inlist img {
@@ -102,6 +97,7 @@ h4 {
 .right {
   background-color: rgb(206, 177, 139);
 }
+
 .left img {
   float: left;
   margin-right: 15px;
@@ -139,8 +135,6 @@ footer a {
   color: #dd9165;
 }
 
-
-
 @media screen and (max-width: 1333px) {
   /* For half-window browser: */
   
@@ -150,10 +144,7 @@ footer a {
     margin: 0 50px;    
   }
   
-  #trib-p {
-    padding: 20px;
-
-  }
+  #trib-p { padding: 20px; }
 
   .inlist {
     width: auto;
@@ -165,42 +156,25 @@ footer a {
     height: auto;
     font-size: 1rem;
   }  
+
 }
 
 @media screen and (max-device-width: 414px) {
   
-  #img-caption {
-    font-size: 10px;
-  }
+  #img-caption { font-size: 10px; }
 
-  .tribute-info {
-    margin: 50px;    
-  }
+  .tribute-info { margin: 50px; }
   
 
-  .inlist span{
-    font-size: 15px;
-  }
+  .inlist span{ font-size: 15px; }
 
   footer {
     height: 15vh;
     font-size: 25px;
   }
 
-
-
 }
 
-
-
-/* font-family: 'Lora', serif;
-font-family: 'Roboto', sans-serif
-
-952
-
-1333
-*/
-  
   
   
   
