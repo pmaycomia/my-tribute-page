@@ -146,6 +146,8 @@ footer a {
   
   #trib-p { padding: 20px; }
 
+  .bold { font-size: 2rem; }
+
   .inlist {
     width: auto;
     padding: 50px;
@@ -164,7 +166,10 @@ footer a {
   #img-caption { font-size: 10px; }
 
   .tribute-info { margin: 50px; }
-  
+
+  #trib-p { font-size: 1.2rem }
+
+  .bold { font-size: 2rem;  }
 
   .inlist span{ font-size: 15px; }
 
